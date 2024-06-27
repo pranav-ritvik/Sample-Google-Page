@@ -1,0 +1,218 @@
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  margin: 0;
+}
+
+.google {
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.search {
+  color: white;
+  background-color: black;
+  width: 600px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  padding: 10px;
+  border-style: solid;
+  padding-top: 10px;
+}
+
+.search:active {
+  border-color: rgb(154, 149, 149);
+}
+
+.google-search {
+  background-color: rgb(29, 28, 28);
+  color: rgb(154, 149, 149);
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, 90%);
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+  transition: border-color 0.15s;
+  padding: 10px;
+}
+
+.im-feeling {
+  background-color: rgb(29, 28, 28);
+  color: rgb(154, 149, 149);
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, 90%);
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: black;
+  transition: border-color 0.15s;
+  padding: 10px;
+}
+
+.google-search:hover {
+  border-color: rgb(154, 149, 149);
+}
+
+.google-search:active {
+  color: rgb(154, 149, 149);
+  border-color: black;
+}
+
+.im-feeling:hover {
+  border-color: rgb(154, 149, 149);
+}
+
+.im-feeling:active {
+  color: rgb(154, 149, 149);
+  border-color: black;
+}
+
+.language {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  font-style: Sans-serif;
+  position: absolute;
+  top: 58%;
+  left: 37%;
+  transform: translate(-50%, -80%);
+}
+
+.hindi {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  transform: translate(-50%, -80%);
+  transition: color 0.15s;
+}
+
+.lang-1 {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-50%, -80%);
+  padding-right: 5px;
+  transition: color 0.15s;
+}
+
+.telugu {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 48%;
+  transform: translate(-50%, -80%);
+  transition: color 0.15s;
+}
+
+.marathi {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 51%;
+  transform: translate(-50%, -80%);
+  transition: color 0.15s;
+}
+
+.malyalam {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 54%;
+  transform: translate(-50%, -80%);
+  transition: color 0.15s;
+}
+
+.lang-2 {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 57%;
+  transform: translate(-50%, -80%);
+  transition: color 0.15s;
+}
+
+.lang-3 {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -80%);
+  padding-right: 8px;
+  transition: color 0.15s;
+}
+
+.lang-4 {
+  color: rgb(154, 149, 149);
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 63%;
+  transform: translate(-50%, -80%);
+  padding-right: 8px;
+  transition: color 0.15s;
+}
+
+.hindi:hover {
+  color: rgb(23, 148, 183);
+}
+
+.lang-1:hover {
+  color: rgb(23, 148, 183);
+}
+
+.telugu:hover {
+  color: rgb(23, 148, 183);
+}
+
+.marathi:hover {
+  color: rgb(23, 148, 183);
+}
+
+.malyalam:hover {
+  color: rgb(23, 148, 183);
+}
+
+.lang-2:hover {
+  color: rgb(23, 148, 183);
+}
+
+.lang-3:hover {
+  color: rgb(23, 148, 183);
+}
+
+.lang-4:hover {
+  color: rgb(23, 148, 183);
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  height: 50px;
+  border-radius: 50px;
+  padding: 15px;
+}
